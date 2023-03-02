@@ -50,7 +50,7 @@ export const CheckboxContent = styled.div`
 
   input[type='checkbox'] + label::before {
     content: '';
-    width: 1.5rem;
+    width: 1rem;
     height: 1rem;
     border: 2px solid var(--blue);
     border-radius: 15px;
