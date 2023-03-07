@@ -34,7 +34,7 @@ export const FormTaskContainer = styled.form`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
     color: var(--gray-100);
     background-color: var(--blue-dark);

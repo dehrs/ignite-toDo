@@ -15,8 +15,6 @@ export function Dashboard() {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState('');
 
-  //const totalIsCompleted = todos.filter(todo => todo.isCompleted).length;
-  //const totalTodos = todos.length;
   const totalTodos = todos.reduce(
     (accumulator, currentValue) => {
       if (currentValue.isCompleted) {
